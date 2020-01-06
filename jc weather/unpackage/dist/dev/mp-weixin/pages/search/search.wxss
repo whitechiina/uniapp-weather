@@ -1,0 +1,157 @@
+/* 用户盒子 */
+.userBox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 20px;
+	background: -webkit-linear-gradient(bottom left, #87c1f1 15%, #4990e2 100%);
+	background: linear-gradient(to top right, #87c1f1 15%, #4990e2 100%);
+}
+/* 用户昵称 */
+.open-data-userNickName {
+	color: #ffffff;
+	padding-right: 160rpx;
+	font-size: 50rpx;
+}
+/* 用户头像 */
+.open-data-userAvatarUrl {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+}
+/* 数据指南 */
+.data {
+	padding: 0rpx 30rpx;
+}
+.title {
+	color: #4990e2;
+	padding: 20rpx 10rpx;
+	font-size: 36rpx;
+	font-weight: 600;
+	letter-spacing: 6rpx;
+}
+.title1 {
+	margin: 10rpx 0rpx;
+}
+.detail {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.details {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	/*垂直居中*/
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	/*水平居中*/
+	display: inline-block;
+	height: 100rpx;
+	line-height: 50rpx;
+	
+	width: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	border-right: .8rpx rgba(0, 0, 0, 0.5) solid;
+}
+.details:last-child {
+	border-right: none;
+}
+.love {
+	color: red;
+	font-weight: 600;
+}
+/* 小贴士 */
+.detail {
+	font-size: 26rpx;
+}
+.tip {
+	text-indent: 60rpx;
+	font-size: 26rpx;
+	padding-top: 40rpx;
+	letter-spacing: 4rpx;
+	padding-bottom: 20rpx;
+}
+/* 生活指数 */
+.live {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	overflow: hidden;
+	padding: 20rpx;
+}
+.img {
+	width: 120rpx;
+	height: 120rpx;
+	margin-top: 15rpx;
+	vertical-align: middle;
+	padding-right: 40rpx
+}
+.iname {
+	font-weight: 600;
+	font-size: 32rpx;
+	line-height: 60rpx;
+}
+.det {
+	font-size: 26rpx;
+	letter-spacing: 4rpx;
+}
+.con {
+	width: 30%;
+}
+.shujv {
+	width: 70%;
+}
+.my {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 80rpx;
+	font-size: 22rpx;
+	color: gray;
+}
+.one{
+	color: #4990e2;
+	padding-right: 30rpx;
+}
+
